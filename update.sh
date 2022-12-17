@@ -1,4 +1,4 @@
-# Update OS
+# === UPDATE OS ===
 
 # '-y' automatically choose 'Yes' on interactive mode (when being asked to whether install/remove a package) 
 
@@ -14,9 +14,9 @@ apt list --upgradable
 
 # sudo apt upgrade -y
 
-#-------------------
+#--------------------
 #  WARNING
-#------------------
+#--------------------
 #
 # 'apt upgrade' is unsafe on rolling release distributions.
 # using 'apt full-upgrade' instead
@@ -32,10 +32,14 @@ sudo apt autoremove -y
 # Clears out the local repository of retrieved package files. This only removes package files that can no longer be downloaded, and are largely useless.
 sudo apt autoclean
 
-#------------
-# References
-#------------
+# === UPDATE ZSH ===
+$ZSH/tools/upgrade.sh
+
+#--------------------
+#  References
+#--------------------
 #
 # 1. https://askubuntu.com/a/222352
 # 2. https://askubuntu.com/a/3169
+# 3. https://forum.freecodecamp.org/t/shellscript-how-to-update-zsh-from-a-shellscript/486301/2
 #
