@@ -35,6 +35,9 @@ sudo apt autoclean
 # === UPDATE ZSH ===
 $ZSH/tools/upgrade.sh
 
+# === LIST (LATEST) ZSH CHANGELOG ===
+$ZSH/tools/changelog.sh
+
 #--------------------
 #  References
 #--------------------
