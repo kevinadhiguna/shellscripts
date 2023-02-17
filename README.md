@@ -2,4 +2,6 @@
 
 A collection of shell scripts with various functionalities.
 
-[![Visits Badge](https://badges.pufler.dev/visits/kevinadhiguna/bashscripts)](https://github.com/kevinadhiguna)
+<br />
+
+![Hello !](https://api.visitorbadge.io/api/VisitorHit?user=kevinadhiguna&repo=shellscripts&label=thanks%20for%20dropping%20in%20!&labelColor=%23000000&countColor=%23FFFFFF)
