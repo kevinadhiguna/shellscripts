@@ -16,3 +16,11 @@ echo "My favorite sports is ${SPORTS}ball"
 
 ### This is another good practice of naming a variable
 STUDENT_01="John"
+
+# Prevent a variable's value from being changed
+TEACHER_01="Sterling"
+echo $TEACHER_01 # Sterling
+
+readonly TEACHER_01
+TEACHER_01="Jessica"
+echo $TEACHER_01 # read-only variable: TEACHER_01
