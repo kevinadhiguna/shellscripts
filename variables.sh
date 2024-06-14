@@ -22,5 +22,12 @@ TEACHER_01="Sterling"
 echo $TEACHER_01 # Sterling
 
 readonly TEACHER_01
-TEACHER_01="Jessica"
-echo $TEACHER_01 # read-only variable: TEACHER_01
+# TEACHER_01="Jessica"
+# echo $TEACHER_01 # read-only variable: TEACHER_01
+
+# Unset a variable
+OFFICER_01="James"
+echo $OFFICER_01 # James
+
+unset OFFICER_01
+echo "The 'OFFICER_01' variable should be empty":$OFFICER_01
